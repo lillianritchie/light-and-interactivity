@@ -1,0 +1,35 @@
+.lightSwitch {
+  background-color: #3b3b3b;
+  cursor:pointer;
+ 
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: 500;
+  width: 120px;
+  height: 32px;
+  border: none;
+  opacity: 0.75;
+}
+
+.lightSwitch:hover{
+  background-color: #000000;
+  transition: 0.2s;
+	transition-delay: 0.1s;
+  opacity: 1;
+}
+
+
+.qualitySlider {
+  width: 200px;
+  height: 40px;
+  opacity: 0.7;
+
+}
+
+.qualitySlider:hover{
+  transition: 0.2s;
+  transition-delay: 0.1s;
+  opacity: 1;
+
+}
